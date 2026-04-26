@@ -1,14 +1,28 @@
-# Identify Unkown Microbe
+# 🧬 Identify Unknown Microbe
+> **Project Status:** In Progress 🧪
 
-Accession:   SRR2584863
-Organism:    Unknown (you'll figure this out!)
-Platform:    Illumina HiSeq 2500
-Layout:      Paired-end, 2 × 150 bp
-Reads:       ~1.6M read pairs
-Size:        ~288 MB
-Study:       Long-term evolution experiment
-Source:      NCBI SRA
+### 🔍 Dataset Information
+* **Accession:** `SRR2584863`
+* **Organism:** Unknown (Under Investigation)
+* **Platform:** Illumina HiSeq 2500
+* **Layout:** Paired-end, $2 \times 150$ bp
+* **Reads:** ~1.6M read pairs
+* **Size:** ~288 MB
+* **Study:** Long-term evolution experiment
+* **Source:** NCBI SRA
 
-FastQC v0.12.1
-blastn: 2.16.0+
-Package: blast 2.16.0, build Nov 27 2024 09:40:57
+---
+
+### 🛠️ Environment & Tools
+To ensure reproducibility, this project utilizes the following versions:
+
+| Tool | Version |
+| :--- | :--- |
+| **FastQC** | `v0.12.1` |
+| **blastn** | `2.16.0+` |
+
+---
+
+### 🚀 Quick Start
+To run the BLAST analysis, ensure your conda environment is active and run:
+`python scripts/blast.py`
