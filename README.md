@@ -1,5 +1,4 @@
 # Identify Unknown Microbe
-> **Project Status:** In Progress 🧪
 
 ### Dataset Information
 * **Accession:** `SRR2584863`
