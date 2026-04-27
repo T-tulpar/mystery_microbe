@@ -5,6 +5,7 @@ from Bio import SeqIO
 records = list(SeqIO.parse("../results/blast/subset_1000.fasta", "fasta"))[:5]
 
 for record in records:
+
     print(f"BLASTing {record.id}...")
     result = NCBIWWW.qblast("blastn", "nt", str(record.seq))
     blast_records = NCBIXML.parse(result)
