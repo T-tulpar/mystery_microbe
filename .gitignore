@@ -1,6 +1,7 @@
 # .gitignore for bioinformatics projects
 
 # Raw and processed data (too large for Git)
+data/
 data/raw/
 data/processed/
 *.fastq
