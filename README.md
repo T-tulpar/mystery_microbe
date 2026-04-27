@@ -25,4 +25,5 @@ To ensure reproducibility, this project utilizes the following versions:
 
 ### 🚀 Quick Start
 To run the BLAST analysis, ensure your conda environment is active and run:
-`python scripts/blast.py`
+`bash scripts/setup.sh`
+`bash scripts/blast.sh`
