@@ -27,5 +27,5 @@ To run the BLAST analysis, ensure your conda environment is active and run:
 `bash scripts/setup.sh`
 `bash scripts/blast.sh`
 
-### Fallowed Guide
+### Followed Guide
 "https://bioskillslab.dev/"
