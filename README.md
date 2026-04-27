@@ -32,7 +32,7 @@ To run the BLAST analysis, run:
 
 To assembly the genome with SPAdes:
 
-bash scripts/assembly.sh`
+`bash scripts/assembly.sh`
 
 
 ### Followed Guide
