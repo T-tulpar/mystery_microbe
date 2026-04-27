@@ -22,7 +22,7 @@ To ensure reproducibility, this project utilizes the following versions:
 ---
 
 ### Quick Start
-To run the BLAST analysis, ensure your conda environment is active and run:
+To run the BLAST analysis, run:
 
 `bash scripts/setup.sh`
 
