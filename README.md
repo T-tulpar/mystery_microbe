@@ -1,19 +1,18 @@
-# 🧬 Identify Unknown Microbe
+# Identify Unknown Microbe
 > **Project Status:** In Progress 🧪
 
-### 🔍 Dataset Information
+### Dataset Information
 * **Accession:** `SRR2584863`
 * **Organism:** Unknown (Under Investigation)
 * **Platform:** Illumina HiSeq 2500
 * **Layout:** Paired-end, $2 \times 150$ bp
 * **Reads:** ~1.6M read pairs
 * **Size:** ~288 MB
-* **Study:** Long-term evolution experiment
 * **Source:** NCBI SRA
 
 ---
 
-### 🛠️ Environment & Tools
+### Environment & Tools
 To ensure reproducibility, this project utilizes the following versions:
 
 | Tool | Version |
@@ -23,7 +22,10 @@ To ensure reproducibility, this project utilizes the following versions:
 
 ---
 
-### 🚀 Quick Start
+### Quick Start
 To run the BLAST analysis, ensure your conda environment is active and run:
 `bash scripts/setup.sh`
 `bash scripts/blast.sh`
+
+### Fallowed Guide
+"https://bioskillslab.dev/"
