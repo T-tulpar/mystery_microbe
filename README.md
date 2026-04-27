@@ -24,10 +24,12 @@ To ensure reproducibility, this project utilizes the following versions:
 ### Quick Start
 For setup:
 
-*`bash scripts/setup.sh`
+`bash scripts/setup.sh`
+
 To run the BLAST analysis, run:
 
 `bash scripts/blast.sh`
+
 To assembly the genome with SPAdes:
 `
 bash scripts/assembly.sh`
